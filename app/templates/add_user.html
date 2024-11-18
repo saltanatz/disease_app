@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Add User</h1>
+<form method="POST">
+    <label>Email:</label><br>
+    <input type="text" name="email" required><br>
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br>
+    <label>Surname:</label><br>
+    <input type="text" name="surname" required><br>
+    <label>Salary:</label><br>
+    <input type="text" name="salary"><br>
+    <label>Phone:</label><br>
+    <input type="text" name="phone"><br>
+    <label>Country:</label><br>
+    <input type="text" name="cname" required><br><br>
+    <input type="submit" value="Add User">
+</form>
+{% endblock %}
